@@ -135,4 +135,25 @@
 // 📥 Input: [1, 2, 3, 4]
 //  📤 Output: [1, 1, 2, 2, 3, 3, 4, 4]
 
-let arr = [1, 2, 3, 4];
+// let arr = [1, 2, 3, 4];
+
+// for (let i = 0; i < arr.length; i++) {}
+
+// Array7.
+// n ta elementdan tashkil topgan massiv va R butun soni berilgan.
+// Massiv elementlari orasidan R soniga eng uzoq son topilsin.
+// 📥 Input: arr = [10, 15, 2, 30, 18], R = 12
+//  📤 Output: 30 (12 ga eng uzoq son 30 (farqi 18))
+
+// function engYaqinSon(n, R) {
+//   let max = Math.max(...n);
+//   let min = Math.min(...n);
+
+//   if (max - R > R - min) {
+//     console.log(max);
+//   } else {
+//     console.log(min);
+//   }
+// }
+// let n = [10, 15, 2, 30, 18];
+// const result = engYaqinSon(n, 12);
