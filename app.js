@@ -136,8 +136,12 @@
 //  📤 Output: [1, 1, 2, 2, 3, 3, 4, 4]
 
 // let arr = [1, 2, 3, 4];
+// let newArr = [];
 
-// for (let i = 0; i < arr.length; i++) {}
+// for (let i = 1; i < arr.length + 1; i++) {
+//   newArr.push(i, i);
+// }
+// console.log(newArr);
 
 // Array7.
 // n ta elementdan tashkil topgan massiv va R butun soni berilgan.
